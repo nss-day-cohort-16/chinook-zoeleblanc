@@ -6,4 +6,3 @@ FROM Track t
 INNER JOIN InvoiceLine il 
 ON t.TrackId = il.TrackId
 
--- FIND out if they want DISTINCT songs
