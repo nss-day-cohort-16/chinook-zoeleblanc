@@ -5,3 +5,5 @@ BillingCountry as 'Country',
 COUNT(*) as 'Country Count'
 FROM Invoice
 GROUP BY BillingCountry
+
+-- FIND out if this by customer country or invoice BillingCountry

@@ -10,3 +10,4 @@ AND e.Title = 'Sales Support Agent'
 INNER JOIN Invoice i 
 ON c.CustomerId = i.CustomerId
 GROUP BY e.EmployeeId
+

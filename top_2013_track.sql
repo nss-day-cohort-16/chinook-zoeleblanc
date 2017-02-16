@@ -18,7 +18,7 @@ FROM(
     GROUP BY il.InvoiceId
 )
 
-OR 
+-- FIND out how to limit dynamically
 SELECT
 invoice_date as 'Invoice Date',
 track_name as 'Song',

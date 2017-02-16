@@ -10,3 +10,7 @@ INNER JOIN Album al
 ON t.AlbumId = al.AlbumId
 INNER JOIN Artist a
 ON al.ArtistId = a.ArtistId 
+
+-- Find out if they want each artist name once or each song name once Can add 
+-- GROUP BY t.Name
+-- ORDER BY il.InvoiceLineId
